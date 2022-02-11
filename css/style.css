@@ -52,9 +52,11 @@ body {
   color: #008000;
   font-size: 36px;
   text-shadow: 10px -10px 20px #008000;
+  border-bottom: 3px double #008000;
 }
 
 .text-original {
+  padding: 20px;
   height: 200px;
   overflow: auto;
   background-color: rgba(185, 175, 143, 0.089);
@@ -70,7 +72,7 @@ body {
 
 span {
   color: #0000ff;
-  border-bottom: 2px dotted #008000;
+  border-bottom: 2px dotted #800080;
 }
 
 .defenition span {
@@ -89,6 +91,7 @@ span {
   font-weight: 700;
   word-spacing: 5px;
   letter-spacing: 3px;
+  border: 3px double #a52a2a;
 }
 
 .paragraph,
@@ -110,6 +113,7 @@ span {
   color: #036810;
   font-family: "Wremena";
   font-weight: 400;
+  border: 3px dotted #036810;
 }
 
 .image {
